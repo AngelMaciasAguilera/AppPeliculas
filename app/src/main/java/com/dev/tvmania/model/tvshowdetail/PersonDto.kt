@@ -24,13 +24,4 @@ data class PersonDto(
         )
     }
 
-//    fun toPersonEntity(): PersonEntity {
-//        return PersonEntity(
-//            personId = id,
-//            name = name,
-//            url = url,
-//            images = image?.let { listOf(it.medium, it.original) } ?: emptyList(),
-//            updated = updated
-//        )
-//    }
 }
